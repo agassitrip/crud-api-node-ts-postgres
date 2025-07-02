@@ -1,0 +1,6 @@
+# Docker
+dist
+node_modules
+ECHO est  desativado.
+# Arquivos de ambiente
+.env

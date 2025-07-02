@@ -1,0 +1,32 @@
+{
+  "name": "crud-api-node-ts-postgres",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/shared/infra/http/server.ts",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "Vinicius Agassi",
+  "license": "ISC",
+  "description": "Sisteminha simples de liberação de login com período de teste (atual 14 dias)",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.14.2",
+    "prisma": "^5.15.0",
+    "tsup": "^8.1.0",
+    "tsx": "^4.15.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.23.8",
+    "@prisma/client": "^5.15.0"
+  }
+}
